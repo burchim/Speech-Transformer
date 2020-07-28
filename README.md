@@ -36,7 +36,7 @@ Preprocessing can be executed on your own device for faster runtime.
 ### 2. Training
 See [speech_transformer.ipynb](speech_transformer.ipynb).  
 TPU hardware with high batch size and memory is recommended for training.
-The default configuration is a small speech transformer with 3 encoder/decoder layers using subword encoding and a CNN preprocessing network. Less than 30 minutes of training should be sufficient to achieve more than 90% on the Librispeech dev-clean validation set.
+The default configuration is a small speech transformer with 3 encoder/decoder layers using subword encoding and a CNN preprocessing network. Less than 30 minutes of training should be sufficient to achieve more than 90% accuracy on the Librispeech dev-clean validation set.
 
 ### 3. Inference
 Once trained, the model can be reloaded with GPU harware for fast inference.  
